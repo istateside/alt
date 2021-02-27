@@ -4,12 +4,7 @@ module.exports = {
   ],
   'plugins': [
     '@babel/plugin-proposal-class-properties',
-    [
-      '@babel/plugin-transform-classes',
-      {
-        'loose': true
-      }
-    ],
+    '@babel/plugin-transform-classes',
     '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-syntax-import-meta',
     '@babel/plugin-proposal-json-strings',

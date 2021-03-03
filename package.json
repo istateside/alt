@@ -4,6 +4,9 @@
   "description": "A flux implementation",
   "main": "lib",
   "jsnext:main": "src",
+  "publishConfig": {
+    "registry": "https://artifactory.squarespace.net/api/npm/npm-all/"
+  },
   "dependencies": {
     "flux": "2.1.1",
     "is-promise": "2.1.0",
